@@ -17,13 +17,12 @@ body{
 
 h1{
     
-    color: #2b121d;
+    color: #6c2c4a;
     border-bottom: 2px solid #2b121d;
     font-size: 40px;
 }
 p{
     margin-top: 10px;
-   border: 1px solid #6c2c4a;
     text-align: center;
     padding: 10px 150px;
     color: #411a2c;
@@ -41,7 +40,13 @@ p{
     border-radius: 5px;
     font-size: 16px;
     padding: 10px 50px;
+    font-weight: bold;
     
+}
+.btn:hover{
+    color: #6c2c4a;
+    background: #fbeef4;
+    border: 1px solid #6c2c4a;
 }
 .currency{
     padding: 40px 0;
@@ -69,9 +74,8 @@ p{
 }
 
 .currency input:focus{
-    outline: none;
-    border-bottom: 1px solid black;
-    width: 50px;
+    outline: none; 
+    width: 150px;
 }
 .currency select:focus{
     outline: none;
@@ -81,9 +85,16 @@ p{
     align-items: center;
     justify-content: space-between;
 }
+
 .rate{
-    color: green;
-    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    color: #972b5a;
     padding: 0 10px;
+    text-align: center;
+    margin: 20px 30px;
+    border: 2px solid #2b121d;
+    border-radius: 5px;
 }
+
 
